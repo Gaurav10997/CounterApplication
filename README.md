@@ -8,23 +8,23 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
+The page will reload when you make changes.
 You may also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
+Launches the test runner in the interactive watch mode.
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
+Builds the app for production to the `build` folder.
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
+The build is minified and the filenames include the hashes.
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
@@ -68,3 +68,29 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# FRONTEND4 CONTEST 2
+
+### Project Overview
+
+1. Make a react project to display a counter on the screen, Make a component called CounterComponent() and pass props accordingly.
+2. Use useState to make the counter state, The count should start from 0, Your useState and useEffect should be in App.js while all of the code for counter should be in a separate file.
+3. console.log the value using a useEffect every time the value of the count changes.
+4. Make 2 buttons, one to increment the number and one to decrement,
+5. The number shouldn't go below 0, if it does give an alert to the user showing an error for the same
+6. If the number is greater than 10, conditionally render a third button which should say "GO BACK TO 0" and onclicking of that button, make the state go back to 0.
+7. Make sure this button is not visible if the count is less than or equal to 10
+
+**Figma Link:** [https://www.figma.com/file/VBaDcqLEUzNPnZezzuxFiI/Untitled?node-id=1%3A2&amp;t=HOu79siGlsbqryv4-1](https://www.figma.com/file/VBaDcqLEUzNPnZezzuxFiI/Untitled?node-id=1%3A2&t=HOu79siGlsbqryv4-1)
+
+**Marking Scheme:**
+
+1. Changed meta tags: (10 marks)
+2. Code divided into different files: (10 marks)
+3. useState for counter: (10 marks)
+4. useEffect: (10 marks)
+5. Increment: (10 marks)
+6. Decrement: (10 marks)
+7. Alert on decrement below 0: (10 marks)
+8. Conditionally render go back to 0: (15 marks)
+9. Deployed: (15 marks)
